@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const port = process.env.PORT || 2030;
 app.use(express.static('./public'));
 app.set('view engine','ejs');
 app.set('views','./src/views');
@@ -50,4 +51,4 @@ app.get('/',function(req,res){
         title:'Library'
     });
 });
-app.listen(2030);
+app.listen(port);
