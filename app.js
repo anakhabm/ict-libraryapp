@@ -35,6 +35,9 @@ const booksRouter=require('./src/routes/bookRouter')(nav)
 const authorsRouter=require('./src/routes/authorRouter')(nav)
 const addbookRouter=require('./src/routes/addbookRouter')(nav)
 const addauthorRouter=require('./src/routes/addauthorRouter')(nav)
+const updatebookformRouter = require('./src/routes/updatebookformRouter')(nav);
+const updateauthorformRouter = require('./src/routes/updateauthorformRouter')(nav);
+
 app.use('/signup',signupRouter);
 app.use('/login',loginRouter);
 app.use('/home',homeRouter);
@@ -42,6 +45,8 @@ app.use('/books',booksRouter);
 app.use('/authors',authorsRouter);
 app.use('/addbook',addbookRouter);
 app.use('/addauthor',addauthorRouter);
+app.use('/updatebookform', updatebookformRouter);
+app.use('/updateauthorform', updateauthorformRouter);
 
 
 app.get('/',function(req,res){

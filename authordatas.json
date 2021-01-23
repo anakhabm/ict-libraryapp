@@ -1,0 +1,54 @@
+[ {
+    "name":
+    "Joseph Barbara",
+
+
+"book":
+"Tom and Jerry",
+
+
+"genre":
+"Cartoon",
+
+
+"image":
+"barbera.jpg"
+
+},
+
+{
+    "name"
+:
+"J K Rowling",
+
+"book"
+:
+"Harry Potter",
+
+"genre"
+:
+"Fantasy",
+
+"image"
+:
+"rowling.jpg"
+},
+
+{
+    "name"
+:
+"Paulo Coelho",
+
+"book"
+:
+"Alchemist",
+
+"genre"
+:
+"Fantasy",
+
+"image"
+:
+"coelho.jpg"
+}
+]

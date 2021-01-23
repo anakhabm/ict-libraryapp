@@ -1,0 +1,43 @@
+[{
+    "title"
+:
+"Tom and Jerry",
+"author"
+:
+"Joseph Barbara",
+"genre"
+:
+"Cartoon",
+"image"
+:
+"tom.jpg"
+},
+{
+"title"
+:
+"Harry Potter",
+"author"
+:
+"J K Rowling",
+"genre"
+:
+"Fantasy",
+"image"
+:
+"harry.jpg"
+},
+{
+    "title"
+    :
+    "Alchemist",
+    "author"
+    :
+    "Paulo Coelho",
+    "genre"
+    :
+    "Fantasy",
+    "image"
+    :
+    "alchemist.jpg"
+}
+]
